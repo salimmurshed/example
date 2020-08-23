@@ -15,3 +15,15 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 [github repository]https://github.com/salimmurshed/example/blob/master/lib/main.dart
+`<addr>`
+ @override
+  void initState() {
+    super.initState ();
+    Screens.i(width: 375, height: 812);    //inside the InitState
+  }
+  
+  
+  `<addr>`
+  width: Screen().Size(100),
+  height: Screen().Size(100),
+  fontSize: Screen().Size(32),
