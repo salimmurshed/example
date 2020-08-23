@@ -18,11 +18,11 @@ samples, guidance on mobile development, and a full API reference.
 
 
 At first you need to put the below code into initState\n
-`Screens.i(width: 375, height: 812);    //inside the InitState`
+```Screens.i(width: 375, height: 812);    //inside the InitState```
 
 and it looks like that
 ```
- @override\n
+ @override
   void initState() {
     super.initState ();
     Screens.i(width: 375, height: 812);    //inside the InitState
